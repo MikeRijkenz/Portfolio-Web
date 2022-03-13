@@ -2,23 +2,32 @@
     padding: 0;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
     background-color: lightgrey;
 }
 
-nav{
+.container-flex{
     text-align: center;
     font-size: 30px;
-}
-
-.container-flex{
     display: flex;
+    background-color: rgb(57, 112, 131); 
 }
-.container-flex div{
+.flex-items{
     flex: 1;
 }
-
-#nav-click a{
-    display: inline;
-    font-size: 20px;
+.nav-button a,
+.nav-button li,
+.nav-button{
     text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    padding: 10px;
+}
+
+.header-nice{
+    width: auto;
+    height: 100px;
+    background: lightcyan;
 }
