@@ -9,3 +9,16 @@ nav{
     text-align: center;
     font-size: 30px;
 }
+
+.container-flex{
+    display: flex;
+}
+.container-flex div{
+    flex: 1;
+}
+
+#nav-click a{
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+}
