@@ -7,7 +7,7 @@
 body{
     background-color: lightgrey;
 }
-
+/*nav container*/
 .container-flex{
     text-align: center;
     font-size: 30px;
@@ -17,6 +17,8 @@ body{
 .flex-items{
     flex: 1;
 }
+
+/*Nav button*/
 .nav-button a,
 .nav-button li,
 .nav-button{
@@ -25,9 +27,21 @@ body{
     display: inline;
     padding: 10px;
 }
+.nav-button a{
+    background-color: lightcoral;
+    padding: 10px;
+}
 
+.nav-button a:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+/*Header*/
 .header-nice{
     width: auto;
-    height: 100px;
-    background: lightcyan;
+    height: 200px;
+}
+#hero-img{
+    height: 100%;
+    background-size: cover;
 }
