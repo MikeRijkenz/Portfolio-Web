@@ -7,41 +7,47 @@
 body{
     background-color: lightgrey;
 }
+
 /*nav container*/
 .container-flex{
+    justify-content: space-between;
     text-align: center;
     font-size: 30px;
     display: flex;
-    background-color: rgb(57, 112, 131); 
-}
-.flex-items{
-    flex: 1;
+    background-color: rgb(56, 56, 56); 
+    color: white;
+    font-weight: 900;
 }
 
-/*Nav button*/
-.nav-button a,
-.nav-button li,
+/* Nav Button*/
 .nav-button{
-    text-decoration: none;
-    font-size: 20px;
-    display: inline;
-    padding: 10px;
+    align-items: center;
 }
-.nav-button a{
-    background-color: lightcoral;
+
+.nav-button{
+    display: flex;
+    gap: 10px;
     padding: 10px;
 }
 
-.nav-button a:hover{
-    background-color: lightgoldenrodyellow;
-    color: black;
+.nav-button li{
+    list-style: none;
+    background-color: rgb(90, 103, 114);
+    
 }
+
+.nav-button a{
+    text-decoration: none;
+    color: white;
+}
+
 /*Header*/
-.header-nice{
+.header-container{
+    display: flex;
     width: auto;
     height: 200px;
-}
-#hero-img{
-    height: 100%;
-    background-size: cover;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
