@@ -63,19 +63,25 @@ body{
 
 .about-me-header-main{
     display: flex;
-    justify-content: space-around;
     width: auto;
-    height: auto;
-    flex-wrap: wrap;
-}
-
-.about-me-image{
-    flex: 0 1 40%;
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+    background-color: azure;
 }
+
+.about-me-header-main p{
+    width: 500px;
+}
+
+.about-me-header-main img{
+    width: 200px;
+    height: 150px;
+}
+
+/*
 
 .about-me-image img{
     height: 400px;
@@ -90,6 +96,34 @@ body{
 
 .about-me-text p {
     background-color: lightcyan;
-    width: 800px;
+    font-size: 20px;
+    width: 400px;
     height: auto;
+}
+*/
+
+.section-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background-color: aquamarine;
 }
