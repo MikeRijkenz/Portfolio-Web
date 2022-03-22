@@ -17,6 +17,7 @@ body{
     background-color: rgb(56, 56, 56); 
     color: white;
     font-weight: 900;
+    flex-wrap: wrap;
 }
 
 .flex-items{
@@ -30,7 +31,7 @@ body{
 }
 
 .nav-button{
-    display: flex;
+    display: flex;  
     gap: 30px;
     padding: 10px;
 }
@@ -133,4 +134,47 @@ body{
 
 .card:hover {
     background-color: aquamarine;
+}
+
+.subscribe-container{
+    display: flex;
+    height: 20vh;
+    background: lightblue;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 50%; 
+    background-color: lightgoldenrodyellow;
+}
+
+#Button{
+    background-color: rgb(19, 19, 104);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Button:hover{
+    background-color: rgb(53, 191, 255);
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: auto;
+    background-color: lightpink;
 }
