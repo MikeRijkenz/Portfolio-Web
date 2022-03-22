@@ -19,6 +19,10 @@ body{
     font-weight: 900;
 }
 
+.flex-items{
+    margin: 0 50px;
+}
+
 /* Nav Button*/
 .nav-button{
     align-items: center;
@@ -51,12 +55,15 @@ body{
 .header-container{
     display: flex;
     width: auto;
-    height: 200px;
-    background-color: aquamarine;
+    height: 50vh;
+    background-image: url('/images/anime-rain.gif');
+    background-size:cover;
+    background-position: center;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 4px 1px rgb(0, 22, 146);
+    box-shadow: 0 0 1px 1px rgb(0, 0, 0);
     font-size: 30px;
+    color: white;
 }
 
 /*About ME Header Main*/
